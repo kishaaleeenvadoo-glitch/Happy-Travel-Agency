@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Travel Explorer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <div class="logo">Travel Explorer 🌍</div>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+</nav>
+
+<header class="hero">
+    <h1>Discover Your Next Adventure</h1>
+    <p>Find the best destinations based on your travel preferences.</p>
+</header>
+
+<section class="recommendation-section">
+    <h2>Choose Your Interest</h2>
+
+    <button onclick="showRecommendation('beach')">Beach</button>
+    <button onclick="showRecommendation('temple')">Temple</button>
+    <button onclick="showRecommendation('japan')">Japan</button>
+
+    <div id="recommendation-container"></div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
